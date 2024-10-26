@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using NativeWifi;
+using static ManagedNativeWifi.NativeWifi;
 using System.IO;
 using Microsoft.Win32;
 using System.Runtime.InteropServices;
@@ -180,31 +180,29 @@ namespace WorksheetLog
             {
                 try
                 {
-                    WlanClient client = new WlanClient();
+                    ManagedNativeWifi.NativeWifi client = new ManagedNativeWifi.NativeWifi();
                     while (true)
                     {
-
-                        foreach (WlanClient.WlanInterface wlanIface in client.Interfaces)
+                        foreach (ManagedNativeWifi.NetworkIdentifier wlanInterface in ManagedNativeWifi.NativeWifi.EnumerateAvailableNetworkSsids())
                         {
-                            // Lists all networks with WEP security
-                            Wlan.WlanAvailableNetwork[] networks = wlanIface.GetAvailableNetworkList(0);
-                            foreach (Wlan.WlanAvailableNetwork network in networks)
                             {
-                                String nam = network.profileName;
-                                //if (nam == "wlan_lab_01")
-                                if (nam == times.WLANID)
                                 {
-                                 
-                                    if (!isLocked || !cbLogBreaks.Checked)
+                                    String nam = wlanInterface.ToString();
+                                    //if (nam == "wlan_lab_01")
+                                    if (nam == times.WLANID)
                                     {
-                                        times.addTimestamp();
-                                        times.Save(times, AppDomain.CurrentDomain.BaseDirectory+"\\data.dat");
+
+                                        if (!isLocked || !cbLogBreaks.Checked)
+                                        {
+                                            times.addTimestamp();
+                                            times.Save(times, AppDomain.CurrentDomain.BaseDirectory + "\\data.dat");
+                                        }
                                     }
                                 }
                             }
-                        }
 
-                        System.Threading.Thread.Sleep(10000);
+                            System.Threading.Thread.Sleep(10000);
+                        }
                     }
                 }
                 catch (Exception) { }
@@ -232,7 +230,11 @@ namespace WorksheetLog
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-        
+            if(!License.Status.Licensed)
+            {
+                MessageBox.Show(this, "No License Found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
             backgroundWorker1.RunWorkerAsync();
             this.WindowState = FormWindowState.Minimized;
 

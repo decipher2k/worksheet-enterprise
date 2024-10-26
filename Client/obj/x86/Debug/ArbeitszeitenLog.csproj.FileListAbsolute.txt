@@ -32,3 +32,14 @@ C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\bin\Debug\Arbeitszeite
 C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\bin\Debug\ArbeitszeitenLog.exe
 C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\bin\Debug\ArbeitszeitenLog.pdb
 C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\obj\x86\Debug\ArbeitszeitenLog.csproj.CopyComplete
+C:\worksheet-enterprise\Client\obj\x86\Debug\ArbeitszeitenLog.csproj.AssemblyReference.cache
+C:\worksheet-enterprise\Client\obj\x86\Debug\WorksheetLog.frmMain.resources
+C:\worksheet-enterprise\Client\obj\x86\Debug\WorksheetLog.Properties.Resources.resources
+C:\worksheet-enterprise\Client\obj\x86\Debug\ArbeitszeitenLog.csproj.GenerateResource.cache
+C:\worksheet-enterprise\Client\obj\x86\Debug\ArbeitszeitenLog.csproj.CoreCompileInputs.cache
+C:\worksheet-enterprise\Client\obj\x86\Debug\Arbeitsz.3EF2C978.Up2Date
+C:\worksheet-enterprise\Client\bin\Debug\WorksheetLog.exe.config
+C:\worksheet-enterprise\Client\bin\Debug\WorksheetLog.exe
+C:\worksheet-enterprise\Client\bin\Debug\WorksheetLog.pdb
+C:\worksheet-enterprise\Client\obj\x86\Debug\WorksheetLog.exe
+C:\worksheet-enterprise\Client\obj\x86\Debug\WorksheetLog.pdb

@@ -9,8 +9,8 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WorksheetLog</RootNamespace>
-    <AssemblyName>ArbeitszeitenLog</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AssemblyName>WorksheetLog</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -37,6 +37,12 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="License">
+      <HintPath>..\..\Program Files (x86)\Eziriz\.NET Reactor\SDK\Binaries\License.dll .NET 4.x\License.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedNativeWifi, Version=2.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ManagedNativeWifi.2.6.0\lib\netstandard2.0\ManagedNativeWifi.dll</HintPath>
+    </Reference>
     <Reference Include="ManagedWifi">
       <HintPath>..\..\..\Desktop\ManagedWifi.dll</HintPath>
     </Reference>
@@ -81,6 +87,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

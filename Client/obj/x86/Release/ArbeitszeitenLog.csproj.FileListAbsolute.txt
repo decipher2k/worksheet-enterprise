@@ -1,0 +1,14 @@
+C:\worksheet-enterprise\Client\obj\x86\Release\ArbeitszeitenLog.csproj.AssemblyReference.cache
+C:\worksheet-enterprise\Client\obj\x86\Release\WorksheetLog.frmMain.resources
+C:\worksheet-enterprise\Client\obj\x86\Release\WorksheetLog.Properties.Resources.resources
+C:\worksheet-enterprise\Client\obj\x86\Release\ArbeitszeitenLog.csproj.GenerateResource.cache
+C:\worksheet-enterprise\Client\obj\x86\Release\ArbeitszeitenLog.csproj.CoreCompileInputs.cache
+C:\worksheet-enterprise\Client\bin\Release\WorksheetLog.exe.config
+C:\worksheet-enterprise\Client\bin\Release\WorksheetLog.exe
+C:\worksheet-enterprise\Client\bin\Release\WorksheetLog.pdb
+C:\worksheet-enterprise\Client\bin\Release\License.dll
+C:\worksheet-enterprise\Client\bin\Release\ManagedNativeWifi.dll
+C:\worksheet-enterprise\Client\bin\Release\ManagedNativeWifi.xml
+C:\worksheet-enterprise\Client\obj\x86\Release\Arbeitsz.3EF2C978.Up2Date
+C:\worksheet-enterprise\Client\obj\x86\Release\WorksheetLog.exe
+C:\worksheet-enterprise\Client\obj\x86\Release\WorksheetLog.pdb

@@ -111,7 +111,7 @@ namespace WorksheetLog
         {
             //Uses first CPU identifier available in order of preference
             //Don't get all identifiers, as it is very time consuming
-            string retVal = identifier("Win32_Processor", "UniqueId");
+            string retVal = "";// identifier("Win32_Processor", "UniqueId");
             if (retVal == "") //If no UniqueID, use ProcessorID
             {
                 retVal = identifier("Win32_Processor", "ProcessorId");
