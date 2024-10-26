@@ -1,0 +1,34 @@
+C:\Users\Dennis\Documents\Git\Timesheet\obj\x86\Debug\ArbeitszeitenLog.csprojAssemblyReference.cache
+C:\Users\Dennis\Documents\Git\Timesheet\obj\x86\Debug\WorksheetLog.frmMain.resources
+C:\Users\Dennis\Documents\Git\Timesheet\obj\x86\Debug\WorksheetLog.Properties.Resources.resources
+C:\Users\Dennis\Documents\Git\Timesheet\obj\x86\Debug\ArbeitszeitenLog.csproj.GenerateResource.cache
+C:\Users\Dennis\Documents\Git\Timesheet\obj\x86\Debug\ArbeitszeitenLog.csproj.CoreCompileInputs.cache
+C:\Users\Dennis\Documents\Git\Timesheet\bin\Debug\ArbeitszeitenLog.exe
+C:\Users\Dennis\Documents\Git\Timesheet\bin\Debug\ArbeitszeitenLog.pdb
+C:\Users\Dennis\Documents\Git\Timesheet\bin\Debug\ManagedWifi.dll
+C:\Users\Dennis\Documents\Git\Timesheet\obj\x86\Debug\ArbeitszeitenLog.csproj.CopyComplete
+C:\Users\Dennis\Documents\Git\Timesheet\obj\x86\Debug\ArbeitszeitenLog.exe
+C:\Users\Dennis\Documents\Git\Timesheet\obj\x86\Debug\ArbeitszeitenLog.pdb
+C:\Users\Dennis\Documents\Git\Timesheet_EN\bin\Debug\ArbeitszeitenLog.exe
+C:\Users\Dennis\Documents\Git\Timesheet_EN\bin\Debug\ArbeitszeitenLog.pdb
+C:\Users\Dennis\Documents\Git\Timesheet_EN\bin\Debug\ManagedWifi.dll
+C:\Users\Dennis\Documents\Git\Timesheet_EN\obj\x86\Debug\ArbeitszeitenLog.csprojAssemblyReference.cache
+C:\Users\Dennis\Documents\Git\Timesheet_EN\obj\x86\Debug\WorksheetLog.frmMain.resources
+C:\Users\Dennis\Documents\Git\Timesheet_EN\obj\x86\Debug\WorksheetLog.Properties.Resources.resources
+C:\Users\Dennis\Documents\Git\Timesheet_EN\obj\x86\Debug\ArbeitszeitenLog.csproj.GenerateResource.cache
+C:\Users\Dennis\Documents\Git\Timesheet_EN\obj\x86\Debug\ArbeitszeitenLog.csproj.CoreCompileInputs.cache
+C:\Users\Dennis\Documents\Git\Timesheet_EN\obj\x86\Debug\ArbeitszeitenLog.csproj.CopyComplete
+C:\Users\Dennis\Documents\Git\Timesheet_EN\obj\x86\Debug\ArbeitszeitenLog.exe
+C:\Users\Dennis\Documents\Git\Timesheet_EN\obj\x86\Debug\ArbeitszeitenLog.pdb
+C:\Users\Dennis\Documents\Git\Timesheet\bin\Debug\ArbeitszeitenLog.exe.config
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\obj\x86\Debug\ArbeitszeitenLog.csprojAssemblyReference.cache
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\obj\x86\Debug\WorksheetLog.frmMain.resources
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\obj\x86\Debug\WorksheetLog.Properties.Resources.resources
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\obj\x86\Debug\ArbeitszeitenLog.csproj.GenerateResource.cache
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\obj\x86\Debug\ArbeitszeitenLog.csproj.CoreCompileInputs.cache
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\obj\x86\Debug\ArbeitszeitenLog.exe
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\obj\x86\Debug\ArbeitszeitenLog.pdb
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\bin\Debug\ArbeitszeitenLog.exe.config
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\bin\Debug\ArbeitszeitenLog.exe
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\bin\Debug\ArbeitszeitenLog.pdb
+C:\Users\Dennis\Documents\Git\Timesheet Enterprise\Client\obj\x86\Debug\ArbeitszeitenLog.csproj.CopyComplete

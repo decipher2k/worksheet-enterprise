@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArbeitszeitenLog", "ArbeitszeitenLog.csproj", "{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}.Debug|x86.ActiveCfg = Debug|x86
+		{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}.Debug|x86.Build.0 = Debug|x86
+		{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}.Release|x86.ActiveCfg = Release|x86
+		{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BD30351-4F38-4354-BB0D-94B2E2214CE2}
+	EndGlobalSection
+EndGlobal
