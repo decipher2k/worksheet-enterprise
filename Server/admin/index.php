@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	$_SESSION["internal"]="INTERNAL";
+	$_SESSION["internal"]="INTERNAL";	
 	require_once(realpath(dirname(__FILE__))."/include/db.inc.php");
 	require_once(realpath(dirname(__FILE__))."/include/template.inc.php");
 	
@@ -34,6 +34,11 @@
 	
 	
 	if(isset($_SESSION["auth"]) && $_SESSION["auth"]==true)
-		echo $template->processAction($action, $page, $zvalue);
+	{
+		$val=$template->processAction($action, $page, $zvalue);
+		echo $val;
+	}
 	else
+	{
 		echo file_get_contents("templates/login.tpl");
+	}

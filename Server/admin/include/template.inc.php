@@ -45,13 +45,42 @@ class Template
 		
 		if(!isset($page) || $page=="")
 			$page="chartmonthly";	
-		
+
 		$tpl_idx=file_get_contents("templates/index.tpl");
 		$tpl_idx=str_replace("<!-- {{AREA}} -->",$this->pages[$page]["area"],$tpl_idx);
-		$tpl_pge=file_get_contents("templates/".$this->pages[$page]["template"]);		
+		$tpl_pge=file_get_contents("templates/".$page.".tpl");		
 		
 		if(true)
 		{
+
+			if(isset($action) && $action=="init")
+			{			
+				include("include/db.inc.php");
+
+				$stmt = $dbh->prepare("SELECT displayname FROM init WHERE pass=?");
+				$stmt->bind_param("s",$_GET["init"]);			
+				$stmt->execute();
+				$result = $stmt->get_result();
+				$user= $result->fetch_array();
+
+				$stmt = $dbh->prepare("DELETE FROM init WHERE pass=?");
+				$stmt->bind_param("s",$_GET["init"]);			
+				$stmt->execute();
+
+				if($user[0]!=NULL && $user[0]!="")
+				{
+					$stmt = $dbh->prepare("INSERT INTO user (hwid,currKey,apipass,initkey,username,deleted) VALUES (?,?,?,?,?,?)");
+					$n=0;
+					$nu="";
+					$stmt->bind_param("sssssi",$_GET["hwid"],$nu,$_GET["apipass"],$_GET["init"],$user[0]	,$n);			
+					$stmt->execute();
+				}
+				else
+				{
+					return "FAIL";
+				}
+				return "OK";
+			}
 
 			if($page=="distrisettings")
 			{

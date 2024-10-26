@@ -1,5 +1,7 @@
 <?php
 
+include("libchart/classes/libchart.php");
+
 class Charts
 {
 	
