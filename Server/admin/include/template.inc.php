@@ -9,7 +9,7 @@ class Template
 {
 	private $pages=Array();
 		
-	function Template()
+	function __construct()
 	{
 		$this->pages["index"]["template"]="index.tpl";
 		$this->pages["index"]["area"]="Dashboard Overview";

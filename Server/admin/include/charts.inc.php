@@ -21,10 +21,10 @@ class Charts
 		$chart = new LineChart(1024, 768);
 		$serie1 = new XYDataSet();							
 		$ret="<center><table class='table table-striped table-bordered' style='width:50%;'>
-		<tr><td></td><td><b>Start</b></td><td><b>Ende</b></td><td><b>Dauer (minuten)</b></td></tr>";
+		<tr><td></td><td><b>Start</b></td><td><b>End</b></td><td><b>Duration (minutes)</b></td></tr>";
 		for($i=0;$i<$numberDays;$i++)
 		{
-			$slices=Array();
+			$slices=[];
 			$min=strtotime("+".$i." days", strtotime($startDay));
 			$max=strtotime("+".($i+1)." days", strtotime($startDay));	
 			$stmt = $dbh->prepare("SELECT timestamp FROM timestamp WHERE timestamp>=? AND timestamp<=? AND iduser=?");
@@ -36,32 +36,35 @@ class Charts
 					$ges=Array();
 					$ges[$min]=0;
 					$sliceCount=1;
-					$slices[$sliceCount]["count"]=0;					
+					$slices[$sliceCount]=[];
+					$slices[$sliceCount][0]=0;					
 					
 					while ( $stmt->fetch()) {							
 						$ges[$min]++;						
 						if(isset($timestamp_prev) && $timestamp-$timestamp_prev>400)
 						{
-							$slices[$sliceCount]["end"]=$timestamp_prev;					
-							$sliceCount++;							
-							$slices[$sliceCount]["start"]=$timestamp;												
+							$slices[$sliceCount][1]=$timestamp_prev;					
+							$sliceCount++;
+							if(!isset($slices[$sliceCount][0]))
+								$slices[$sliceCount][0]=0;
+							$slices[$sliceCount][2]=$timestamp;												
 						}
 						else
 						{
-							$slices[$sliceCount]["start"]=$timestamp;												
+							$slices[$sliceCount][2]=$timestamp;												
 						}
-						$slices[$sliceCount]["count"]++;
+						$slices[$sliceCount][0]++;
 						$timestamp_prev=$timestamp;
 					}										
 				}
 				$ret.="<tr><td colspan='4'><b>".date("d/m/Y",$min)."</b></td></tr>";
 				foreach($slices as $sliceNum => $slice)
 				{					
-					if(isset($slices[$sliceNum]["end"]))						
-						$ret.="<tr><td></td><td>".date("h:i",$slices[$sliceNum]["start"])."</td><td>".date("h:i",$slices[$sliceNum]["end"])."</td><td>".$slices[$sliceNum]["count"]."</td></tr>";
+					if(isset($slices[$sliceNum][1]))						
+						$ret.="<tr><td></td><td>".date("h:i",$slices[$sliceNum][2])."</td><td>".date("h:i",$slices[$sliceNum][1])."</td><td>".$slices[$sliceNum][0]."</td></tr>";
 					else
-						if(isset($slices[$sliceNum]["start"]))
-							$ret.="<tr><td></td><td>".date("h:i",$slices[$sliceNum]["start"])."</td><td>".date("h:i",$slices[$sliceNum]["start"]+300)."</td><td>5</td></tr>";						
+						if(isset($slices[$sliceNum][2]))
+							$ret.="<tr><td></td><td>".date("h:i",$slices[$sliceNum][2])."</td><td>".date("h:i",$slices[$sliceNum][2]+300)."</td><td>5</td></tr>";						
 				}
 		}				
 		
@@ -97,7 +100,9 @@ class Charts
 					while ( $stmt->fetch()) {	
 						$ges[$min]++;						
 					}
-					
+					$ges[$min]=$ges[$min]/60;
+					if($ges[$min]>1)
+						$ges[$min]-=1;
 					$serie1->addPoint(new Point($min, $ges[$min]));
 				}
 		}				
@@ -174,7 +179,7 @@ class Charts
 					$ges=Array();
 					
 					while ( $stmt->fetch()) {		
-						if(!isset($timestamp[$iduser]))						
+						if(!isset($timestamps[$iduser]))						
 							$timestamps[$iduser]=0;
 						$timestamps[$iduser]++;
 					}
@@ -189,6 +194,7 @@ class Charts
 					if(sizeof($timestamps)>0)
 					{
 						$durchschnitt=intval($alloverall/sizeof($timestamps));
+						$durchschnitt=$durchschnitt/60;
 						$serie1->addPoint(new Point(date("m.d.Y",strtotime("+".$i." days", strtotime($startDay))), $durchschnitt));
 					}
 					else

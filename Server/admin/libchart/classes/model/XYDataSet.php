@@ -1,6 +1,6 @@
 <?php
     /* Libchart - PHP chart library
-     * Copyright (C) 2005-2011 Jean-Marc Trémeaux (jm.tremeaux at gmail.com)
+     * Copyright (C) 2005-2011 Jean-Marc Trï¿½meaux (jm.tremeaux at gmail.com)
      * 
      * This program is free software: you can redistribute it and/or modify
      * it under the terms of the GNU General Public License as published by
@@ -20,17 +20,17 @@
     /**
      * Set of data in the form of (x, y) items.
      *
-     * @author Jean-Marc Trémeaux (jm.tremeaux at gmail.com)
+     * @author Jean-Marc Trï¿½meaux (jm.tremeaux at gmail.com)
      * Created on 10 may 2007
      */
     class XYDataSet extends DataSet {
-        private $pointList;
+        private $pointList = array();
     
         /**
          * Constructor of XYDataSet.
          *
          */
-        public function XYDataSet() {
+        public function __construct() {
             $this->pointList = array();
         }
     

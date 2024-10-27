@@ -43,3 +43,6 @@ C:\worksheet-enterprise\Client\bin\Debug\WorksheetLog.exe
 C:\worksheet-enterprise\Client\bin\Debug\WorksheetLog.pdb
 C:\worksheet-enterprise\Client\obj\x86\Debug\WorksheetLog.exe
 C:\worksheet-enterprise\Client\obj\x86\Debug\WorksheetLog.pdb
+C:\worksheet-enterprise\Client\bin\Debug\License.dll
+C:\worksheet-enterprise\Client\bin\Debug\ManagedNativeWifi.dll
+C:\worksheet-enterprise\Client\bin\Debug\ManagedNativeWifi.xml

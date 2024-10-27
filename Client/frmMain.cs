@@ -157,10 +157,12 @@ namespace WorksheetLog
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
             Microsoft.Win32.SystemEvents.SessionSwitch += new Microsoft.Win32.SessionSwitchEventHandler(SystemEvents_SessionSwitch);
-
-            if (File.Exists(AppDomain.CurrentDomain.BaseDirectory+"\\data.dat"))
-                times = times.Load(AppDomain.CurrentDomain.BaseDirectory+"\\data.dat");                
-
+            try
+            {
+                if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "\\data.dat"))
+                    times = times.Load(AppDomain.CurrentDomain.BaseDirectory + "\\data.dat");
+            }
+            catch (Exception ex) { }
             SetText(tbWiFi, times.WLANID, times.connectOnWLAN);
             if (rbProgramm.Checked)
             {
@@ -172,8 +174,11 @@ namespace WorksheetLog
                     {
                         times.addTimestamp();                        
                     }
-                    times.Save(times,AppDomain.CurrentDomain.BaseDirectory+"\\data.dat");
-                    System.Threading.Thread.Sleep(10000);
+                    try
+                    {
+                        times.Save(times, AppDomain.CurrentDomain.BaseDirectory + "\\data.dat");
+                    }catch (Exception ex) { }
+                    System.Threading.Thread.Sleep(60000);
                 }
             }
             else

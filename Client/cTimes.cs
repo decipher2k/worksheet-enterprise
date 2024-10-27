@@ -12,6 +12,7 @@ using System.Management;
 using System.Globalization;
 using System.Threading;
 using System.Windows.Forms;
+using System.Web;
 
 namespace WorksheetLog
 {
@@ -166,7 +167,7 @@ namespace WorksheetLog
             WebClient wc = new WebClient();
             String currentKey=wc.DownloadString(Globals.host+"/api.php?action=query&id="+Globals.ID+"&apipass="+Globals.apipass);
 
-            secret = base64(xor(secret, currentKey));
+            secret = HttpUtility.UrlEncode( base64(xor(secret, currentKey)) );
             
             String res=wc.DownloadString(Globals.host+"/api.php?action=update&secret="+secret+"&id="+Globals.ID+"&dateformat="+getDateFormat() + "&apipass=" + Globals.apipass);
             

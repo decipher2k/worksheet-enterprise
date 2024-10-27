@@ -1,6 +1,6 @@
 <?php
     /* Libchart - PHP chart library
-     * Copyright (C) 2005-2011 Jean-Marc Trémeaux (jm.tremeaux at gmail.com)
+     * Copyright (C) 2005-2011 Jean-Marc Trï¿½meaux (jm.tremeaux at gmail.com)
      * 
      * This program is free software: you can redistribute it and/or modify
      * it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@
      * The bounds are automatically calculated from a XYDataSet or XYSeriesDataSet.
      * Default (calculated) bounds can be overriden using the setLowerBound() and setUpperBound() methods.
      *
-     * @author Jean-Marc Trémeaux (jm.tremeaux at gmail.com)
+     * @author Jean-Marc Trï¿½meaux (jm.tremeaux at gmail.com)
      * Created on 25 july 2007
      */
      class Bound {
@@ -68,7 +68,7 @@
                 $serieList = $dataSet->getSerieList();
                 if (count($serieList) > 0) {
                     $serie = current($serieList);
-                    $dataSetEmpty = count($serie) == 0;
+                    $dataSetEmpty = false;
                 }
             } else {
                 die("Error: unknown dataset type");

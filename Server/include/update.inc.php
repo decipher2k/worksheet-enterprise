@@ -19,27 +19,21 @@ class Update
 		{
 			include("include/db.inc.php");
 			$hwid=$this->getHWID($id);
-						
-			$stmt1=$dbh->prepare("SELECT currKey FROM user WHERE ID=?");
-			$stmt1->bind_param("i",$id);
-			$stmt1->execute();
-			$stmt1->bind_result($currentkey);
-			$stmt1->store_result();
-			$stmt1->fetch();
+			$currentkey=$this->getcurrentkey($id);
 			
-			
+			echo "1";
 			$hash=Hashing::genHash($hwid,$dateformat,$currentkey);
+			echo "2";
 			if(trim($hash)==trim($secret))
 			{
 				
-				$lala=$dbh->prepare("INSERT INTO timestamp(iduser, timestamp) VALUES(?, ?)");
+				$stmt=$dbh->prepare("INSERT INTO timestamp(iduser, timestamp) VALUES(?, ?)");
 				 
-
-					$lala->bind_param("is",$mid,$timestamp);
-					
 					$mid=$id;
 					$timestamp=time();
-					if(!$lala->execute())
+					$stmt->bind_param("is",$mid,$timestamp);					
+				
+					if(!$stmt->execute())
 						return "FAIL";
 					else
 						return "SUCCESS";
@@ -56,6 +50,21 @@ class Update
 		{
 			include("include/db.inc.php");
 			$stmt = $dbh->prepare("SELECT hwid FROM user WHERE ID=?");	
+			
+			$stmt->bind_param("i",$id);
+			
+			if ($stmt->execute()) {
+				$stmt->bind_result($hwid);
+				if ($stmt->fetch()) {
+					return $hwid;
+				}
+			}
+			return false;
+		}
+		private function getcurrentkey($id)
+		{
+			include("include/db.inc.php");
+			$stmt = $dbh->prepare("SELECT currKey FROM user WHERE ID=?");	
 			
 			$stmt->bind_param("i",$id);
 			
@@ -112,7 +121,7 @@ class Hashing
 				{
 					for($j=0; ($j<strlen($key) && $i<strlen($text)); $j++,$i++)
 					{
-						$outText .= $text{$i} ^ $key{$j};
+						$outText .= $text[$i] ^ $key[$j];
 						//echo 'i=' . $i . ', ' . 'j=' . $j . ', ' . $outText{$i} . '<br />'; // For debugging
 					}
 				}

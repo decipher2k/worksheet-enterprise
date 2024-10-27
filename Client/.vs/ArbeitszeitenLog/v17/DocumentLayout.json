@@ -3,42 +3,42 @@
   "WorkspaceRootPath": "C:\\worksheet-enterprise\\Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|c:\\worksheet-enterprise\\client\\initialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:initialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\admin\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|c:\\worksheet-enterprise\\client\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|c:\\worksheet-enterprise\\client\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|C:\\worksheet-enterprise\\Client\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|c:\\worksheet-enterprise\\client\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|c:\\worksheet-enterprise\\client\\ctimes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:ctimes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ArbeitszeitenLog||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|c:\\worksheet-enterprise\\client\\hardwareid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|C:\\worksheet-enterprise\\Client\\hardwareid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:hardwareid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|c:\\worksheet-enterprise\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ArbeitszeitenLog||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|C:\\worksheet-enterprise\\Client\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|C:\\worksheet-enterprise\\Client\\initialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:initialize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|C:\\worksheet-enterprise\\Client\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|C:\\worksheet-enterprise\\Client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|c:\\worksheet-enterprise\\client\\windowssession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|C:\\worksheet-enterprise\\Client\\windowssession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|solutionrelative:windowssession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC9B393F-556E-4E4A-B9F1-DB4BEAFB6588}|ArbeitszeitenLog.csproj|c:\\worksheet-enterprise\\client\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,8 +48,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\admin\\package.json",
+              "RelativeDocumentMoniker": "..\\..\\xampp\\htdocs\\admin\\package.json",
+              "ToolTip": "C:\\xampp\\htdocs\\admin\\package.json",
+              "RelativeToolTip": "..\\..\\xampp\\htdocs\\admin\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-27T00:33:16.277Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
@@ -60,25 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ArbeitszeitenLog",
-              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\ArbeitszeitenLog.csproj",
-              "RelativeDocumentMoniker": "ArbeitszeitenLog.csproj",
-              "ToolTip": "C:\\worksheet-enterprise\\Client\\ArbeitszeitenLog.csproj",
-              "RelativeToolTip": "ArbeitszeitenLog.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-26T09:49:10.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "cTimes.cs",
               "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\cTimes.cs",
               "RelativeDocumentMoniker": "cTimes.cs",
               "ToolTip": "C:\\worksheet-enterprise\\Client\\cTimes.cs",
               "RelativeToolTip": "cTimes.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwBoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAEwGUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T09:42:29.34Z",
               "EditorCaption": ""
@@ -86,84 +87,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Globals.cs",
-              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\Globals.cs",
-              "RelativeDocumentMoniker": "Globals.cs",
-              "ToolTip": "C:\\worksheet-enterprise\\Client\\Globals.cs",
-              "RelativeToolTip": "Globals.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T09:42:28.491Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HardwareID.cs",
-              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\HardwareID.cs",
-              "RelativeDocumentMoniker": "HardwareID.cs",
-              "ToolTip": "C:\\worksheet-enterprise\\Client\\HardwareID.cs",
-              "RelativeToolTip": "HardwareID.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAhwFgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T09:42:25.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Initialize.cs",
-              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\Initialize.cs",
-              "RelativeDocumentMoniker": "Initialize.cs",
-              "ToolTip": "C:\\worksheet-enterprise\\Client\\Initialize.cs",
-              "RelativeToolTip": "Initialize.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T09:41:59.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WindowsSession.cs",
-              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\WindowsSession.cs",
-              "RelativeDocumentMoniker": "WindowsSession.cs",
-              "ToolTip": "C:\\worksheet-enterprise\\Client\\WindowsSession.cs",
-              "RelativeToolTip": "WindowsSession.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T09:41:56.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\worksheet-enterprise\\Client\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T09:41:55.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "frmMain.cs",
               "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
               "ToolTip": "C:\\worksheet-enterprise\\Client\\frmMain.cs",
               "RelativeToolTip": "frmMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABgAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAASwLQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T09:40:12.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "frmMain.cs [Entwurf]",
               "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\frmMain.cs",
               "RelativeDocumentMoniker": "frmMain.cs",
@@ -172,6 +108,78 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-26T09:39:56.392Z",
               "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Initialize.cs",
+              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\Initialize.cs",
+              "RelativeDocumentMoniker": "Initialize.cs",
+              "ToolTip": "C:\\worksheet-enterprise\\Client\\Initialize.cs",
+              "RelativeToolTip": "Initialize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T09:41:59.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArbeitszeitenLog",
+              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\ArbeitszeitenLog.csproj",
+              "RelativeDocumentMoniker": "ArbeitszeitenLog.csproj",
+              "ToolTip": "C:\\worksheet-enterprise\\Client\\ArbeitszeitenLog.csproj",
+              "RelativeToolTip": "ArbeitszeitenLog.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-26T09:49:10.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Globals.cs",
+              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\Globals.cs",
+              "RelativeDocumentMoniker": "Globals.cs",
+              "ToolTip": "C:\\worksheet-enterprise\\Client\\Globals.cs",
+              "RelativeToolTip": "Globals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T09:42:28.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HardwareID.cs",
+              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\HardwareID.cs",
+              "RelativeDocumentMoniker": "HardwareID.cs",
+              "ToolTip": "C:\\worksheet-enterprise\\Client\\HardwareID.cs",
+              "RelativeToolTip": "HardwareID.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwGMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T09:42:25.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WindowsSession.cs",
+              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\WindowsSession.cs",
+              "RelativeDocumentMoniker": "WindowsSession.cs",
+              "ToolTip": "C:\\worksheet-enterprise\\Client\\WindowsSession.cs",
+              "RelativeToolTip": "WindowsSession.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T09:41:56.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\worksheet-enterprise\\Client\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\worksheet-enterprise\\Client\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T09:41:55.106Z"
             }
           ]
         }

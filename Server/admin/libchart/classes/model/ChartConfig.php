@@ -1,6 +1,6 @@
 <?php
     /* Libchart - PHP chart library
-     * Copyright (C) 2005-2011 Jean-Marc Trémeaux (jm.tremeaux at gmail.com)
+     * Copyright (C) 2005-2011 Jean-Marc Trï¿½meaux (jm.tremeaux at gmail.com)
      * 
      * This program is free software: you can redistribute it and/or modify
      * it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@
     /**
      * Configuration attributes of the chart.
      *
-     * @author Jean-Marc Trémeaux (jm.tremeaux at gmail.com)
+     * @author Jean-Marc Trï¿½meaux (jm.tremeaux at gmail.com)
      */
     class ChartConfig {
         /**
@@ -47,7 +47,7 @@
         /**
          * Creates a new ChartConfig with default options.
          */
-        public function ChartConfig() {
+        public function __construct() {
             $this->useMultipleColor = false;
             $this->showPointCaption = true;
             $this->sortDataPoint = true;

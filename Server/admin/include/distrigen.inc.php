@@ -19,7 +19,7 @@ $tempzipname=genPass();
 	$tempname=dirname(__FILE__). "/..//temp/".genPass();
 	mkdir($tempname);
 	copy(dirname(__FILE__). "/../dist/Timesheet.exe",$tempname."/Timesheet.exe");
-	copy(dirname(__FILE__). "/../dist/ManagedWifi.dll",$tempname."/ManagedWifi.dll");
+	copy(dirname(__FILE__). "/../dist/ManagedNativeWifi.dll",$tempname."/ManagedNativeWifi.dll");
 	file_put_contents($tempname."/hostname.txt",$hostname);
 	file_put_contents($tempname."/apipass.txt",$apipass);
 	

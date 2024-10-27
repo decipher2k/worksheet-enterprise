@@ -1,6 +1,6 @@
 <?php
     /* Libchart - PHP chart library
-     * Copyright (C) 2005-2011 Jean-Marc Trémeaux (jm.tremeaux at gmail.com)
+     * Copyright (C) 2005-2011 Jean-Marc Trï¿½meaux (jm.tremeaux at gmail.com)
      * 
      * This program is free software: you can redistribute it and/or modify
      * it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@
     /**
      * Horizontal bar chart
      *
-     * @author Jean-Marc Trémeaux (jm.tremeaux at gmail.com)
+     * @author Jean-Marc Trï¿½meaux (jm.tremeaux at gmail.com)
      */
     class HorizontalBarChart extends BarChart {
         /**
@@ -34,7 +34,7 @@
          * @param integer width of the image
          * @param integer height of the image
          */
-        public function HorizontalBarChart($width = 600, $height = 250) {
+        public function __construct($width = 600, $height = 250) {
             parent::BarChart($width, $height);
 
             $this->emptyToFullRatio = 1 / 5;
